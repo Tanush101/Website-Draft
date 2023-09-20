@@ -20,11 +20,18 @@
       border-width:2px;
       width:500px;
     }
+    
+    .components {
+      height:200px;
+    }
+
 
     body {
-      background-color:rgb(60, 145, 230);
+  background-color: rgb(60, 145, 230); /* For browsers that do not support gradients */
+  background-image: linear-gradient(0deg, rgb(60, 145, 230), rgb(70, 199, 255));
     }
-    p {
+    
+    p  {
       font-family: Arial;
       font-size: 15px;
       color: rgb(250, 255, 253);
@@ -35,11 +42,12 @@
     .menu{
       position:sticky;
       top:0;
-      background-color:rgb(60, 145, 230);
+      background-color:transparent;
     }
-    .home-button {
+    .menu-button {
       color:rgb(255, 255, 255);
-      background-color:rgb(83, 123, 255) ;
+      background-color:rgb(0, 0, 0) ;
+      font-size:20px;
     }
     
     grid-container {
@@ -64,6 +72,8 @@
     .under-title {
       font-size:25px;
     }
+
+
   </style>
   </head>
   <body>
@@ -71,31 +81,36 @@
     
     <div class="menu">
 
-    <button class="home-button">Home</button>
+    <button class="menu-button">Home</button>
+    <button class="menu-button">About us</button>
 
     </div>
     
     
 
     <div class="grid-container">
-      <div class="grid-item"><p class="title">How to build a gaming PC</p>
+      <div class="grid-item"><p class="title">How to build a gaming PC
+      </p>
+
         <p class="under-title">Reasons you may want to buy a gaming PC could be that you are wanting to upgrade your current pc because
           it is too old, you may want to start playing games or doing more intense tasks such as video editing etc.
           This website is designed to help people interested in upgrading and building PC's for your need.
         </p>
         <img class="bingqilin" src="https://geekawhat.com/wp-content/uploads/2023/01/H9-Elite-Feature-Image.jpg"><img class="bingqilin1" src="https://www.pcinvasion.com/wp-content/uploads/2019/09/Maingear-VYBE-PC-1200x675.jpg?fit=1024%2C576"></div>
-      <div class="grid-item">First we should talk about the CPU or the Central Processing Unit, this is a small chip in every computer which is 
+      <div class="grid-item"><p>First we should talk about the CPU or the Central Processing Unit, this is a small chip in every computer which is 
         what makes your computer run. The CPU is what is sending information from one part of your computer therefore the faster the chip,
         the faster you will be able to do activities. For games such as Valorant or CS:GO they will actually get far more frames per second
-        as they are more CPU intensive while games like Shadow Of The Tomb Raider is much more GPU intensive.
+        as they are more CPU intensive while games like Shadow Of The Tomb Raider is much more GPU intensive.</p>
       </div>
-      <div class="grid-item">Next we should talk about the the GPU you are using which is short for Graphics Processing Unit.
+      
+      <div class="grid-item"><p>Next we should talk about the the GPU you are using which is short for Graphics Processing Unit.
         The GPU is one of the most important parts of any gaming PC and what it does is graphics cards are what renders the images from
       your computer over to your monitor, the more powerful the graphics card, the higher your ingame graphics will be. For example if I were
       to play a game called Shadow Of The Tomb Raider on my computer and I had a GTX 970 on Maximum ingame settings then it would give 
       us around 45fps at 1080P but if I swapped my Nvidia Gefore GTX 970 out for an Nvidia RTX 4090 then I would easily get over 150fps
       on the same game at 4K. One thing you need to remember though is that most people wouldnt be playing at 4K and for games as demanding
-      as shadow of the tomb raider FPS doesnt really matter as it isnt a fast paced shooter game like Valorant and CS:GO. </div>  
+      as shadow of the tomb raider FPS doesnt really matter as it isnt a fast paced shooter game like Valorant and CS:GO.</p>
+      </div>  
       <div class="grid-item">One of the absolute most important components of any PC is the motherboard, a motherboard is a platform which 
         every component plugs into to work together. Depending on how much you end up spending on the motherboard, it may come with features
         like Wifi and bluetooth or even Thunderbolt if you are lucky. The one thing that you must know about motherboards are that they only
@@ -105,26 +120,7 @@
       <div class="grid-item">6</div>  
       <div class="grid-item">7</div>
       <div class="grid-item">8</div>
-      <div class="grid-item">9</div>  
+      <div class="grid-item">9</div>
+      <div class="grid-item"><p><img class="components" src="https://yt3.googleusercontent.com/ytc/AOPolaSr7WFjvw5Tqb_pzYba6Fdj_DnqxNIjlUpSXwz4HBU=s900-c-k-c0x00ffffff-no-rj"><img class="components" src="https://1000logos.net/wp-content/uploads/2020/05/Amd-logo.jpg"><img class="components" src="https://www.nvidia.com/content/dam/en-zz/Solutions/about-nvidia/logo-and-brand/01-nvidia-logo-horiz-500x200-2c50-p@2x.png"></p></div>  
     </div>
-
-
-    <p>CPU is short for Central Processing Unit</p>
-    <p>GPU is short for Graphics Processing Unit</p>
-    <p>MOBO is short for MotherBoard</p>
-    <p>RAM is short for Random Access Memory</p>
-    <p>HDD is short for Hard Disk Drive</p>
-    <p>SSD is short for Solid State Drive</p>
-    <p>NVME is short for Non-Volatile Memory Express</p>
-    <p>WIFI is short for Wireless Fidelity</p>
-    <div>This Section teaches you more about what a CPU is and how it works</div>
-    <p>If you were to buy a CPU that reaches around 5ghz that means that it is most likely a high performance CPU but with great power also means you will require good cooling especially if your cpu is overclockable or if your cpu has multiple cores running and boosting upto that speed.</p>
-    <div>This is a divider between secitons ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</div>
-  </body>
-    <button> hi</button>
-    <button> hi</button>
-
-  
-
-
   </html>
