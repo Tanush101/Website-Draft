@@ -46,8 +46,20 @@
     }
     .menu-button {
       color:rgb(255, 255, 255);
-      background-color:rgb(0, 0, 0) ;
+      background-color:transparent ;
       font-size:20px;
+      border-width:0px;
+      font:bold;
+      font-size:30px;
+      cursor:pointer;
+    }
+
+    .menu-button:hover {
+      box-shadow: 0 5px;
+    }
+    
+    .menu-button:active{
+      color:RGB(70, 199, 255);
     }
     
     grid-container {
@@ -73,6 +85,7 @@
       font-size:25px;
     }
 
+    
 
   </style>
   </head>
@@ -81,8 +94,9 @@
     
     <div class="menu">
 
-    <button class="menu-button">Home</button>
-    <button class="menu-button">About us</button>
+    <button class="menu-button" ><b><a href="./Computer Website.html">Home</a></b></button>
+    <button class="menu-button" ><b><a href="./about.html">About</a></b></button>
+    <button class="menu-button" ><b><a href="./contact.html">Contact</a></b></button>
 
     </div>
     
