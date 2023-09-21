@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <title>PC tutorial</title>
+  <title>PCBuilderGenius.com</title>
   <style>
     .bingqilin {
       width:500px;
@@ -27,8 +27,12 @@
 
 
     body {
-  background-color: rgb(60, 145, 230); /* For browsers that do not support gradients */
-  background-image: linear-gradient(0deg, rgb(60, 145, 230), rgb(70, 199, 255));
+      background-color: rgb(60, 145, 230); /* For browsers that do not support gradients */
+      background-image: linear-gradient(0deg, rgb(60, 145, 230), rgb(70, 199, 255));
+      height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     }
     
     p  {
@@ -42,7 +46,7 @@
     .menu{
       position:sticky;
       top:0;
-      background-color:transparent;
+      background-color:rgb(70, 199, 255);
     }
     .menu-button {
       color:rgb(255, 255, 255);
@@ -76,7 +80,16 @@
     font-size: 20px;
     text-align: center;
     }
-    
+
+    .logo {
+    background-color: transparent
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    size:50%;
+    }
+
     .title {
       font-size:50px;
     }
@@ -84,6 +97,7 @@
     .under-title {
       font-size:25px;
     }
+
 
     
 
@@ -94,15 +108,15 @@
     
     <div class="menu">
 
-    <button class="menu-button" ><b><a href="./Computer Website.html">Home</a></b></button>
+         <button class="menu-button" ><b><a href="./Computer Website.html">Home</a></b></button>
     <button class="menu-button" ><b><a href="./about.html">About</a></b></button>
     <button class="menu-button" ><b><a href="./contact.html">Contact</a></b></button>
-
     </div>
     
     
-
+    
     <div class="grid-container">
+      <div class="logo"><img src="logo.png.png"></div>
       <div class="grid-item"><p class="title">How to build a gaming PC
       </p>
 
@@ -111,30 +125,32 @@
           This website is designed to help people interested in upgrading and building PC's for your need.
         </p>
         <img class="bingqilin" src="https://geekawhat.com/wp-content/uploads/2023/01/H9-Elite-Feature-Image.jpg"><img class="bingqilin1" src="https://www.pcinvasion.com/wp-content/uploads/2019/09/Maingear-VYBE-PC-1200x675.jpg?fit=1024%2C576"></div>
-      <div class="grid-item"><p>First we should talk about the CPU or the Central Processing Unit, this is a small chip in every computer which is 
-        what makes your computer run. The CPU is what is sending information from one part of your computer therefore the faster the chip,
-        the faster you will be able to do activities. For games such as Valorant or CS:GO they will actually get far more frames per second
-        as they are more CPU intensive while games like Shadow Of The Tomb Raider is much more GPU intensive.</p>
+      <div class="grid-item"><p>The CPU, often referred to as the brain of the computer, is responsible for executing instructions and performing calculations needed for various tasks and programs.
+        In gaming, the CPU handles critical tasks like game physics, artificial intelligence (AI) computations, and managing the game's logic.
+        When choosing a CPU for gaming, consider factors like clock speed (measured in gigahertz) and the number of cores and threads. A higher clock speed and more cores generally result in better gaming performance.
+        </p>
       </div>
       
-      <div class="grid-item"><p>Next we should talk about the the GPU you are using which is short for Graphics Processing Unit.
-        The GPU is one of the most important parts of any gaming PC and what it does is graphics cards are what renders the images from
-      your computer over to your monitor, the more powerful the graphics card, the higher your ingame graphics will be. For example if I were
-      to play a game called Shadow Of The Tomb Raider on my computer and I had a GTX 970 on Maximum ingame settings then it would give 
-      us around 45fps at 1080P but if I swapped my Nvidia Gefore GTX 970 out for an Nvidia RTX 4090 then I would easily get over 150fps
-      on the same game at 4K. One thing you need to remember though is that most people wouldnt be playing at 4K and for games as demanding
-      as shadow of the tomb raider FPS doesnt really matter as it isnt a fast paced shooter game like Valorant and CS:GO.</p>
+      <div class="grid-item"><p>The GPU is like a powerhouse for rendering graphics. It processes complex calculations to produce images, animations, and videos that you see on your screen.
+        In gaming, the GPU's role is paramount. A powerful gaming GPU ensures high frame rates and visually stunning graphics.
+        Key factors to consider when selecting a GPU include VRAM (video RAM), CUDA cores (for NVIDIA cards), and stream processors (for AMD cards). Higher VRAM and more processing units lead to better gaming performance.</p>
       </div>  
-      <div class="grid-item">One of the absolute most important components of any PC is the motherboard, a motherboard is a platform which 
-        every component plugs into to work together. Depending on how much you end up spending on the motherboard, it may come with features
-        like Wifi and bluetooth or even Thunderbolt if you are lucky. The one thing that you must know about motherboards are that they only
-        work with specific components such as only some CPU's or RAM may work or be compatible with some motherboards.
+      <div class="grid-item">The motherboard is the main circuit board that hosts and connects all the components in a computer.
+        It accommodates the CPU, GPU, RAM, storage drives, and other essential hardware. It also provides interfaces for connecting external devices.
+        Ensure the motherboard is compatible with your CPU and GPU, and it has enough ports and slots to accommodate your components.
       </div>
-      <div class="grid-item">5</div>
-      <div class="grid-item">6</div>  
-      <div class="grid-item">7</div>
-      <div class="grid-item">8</div>
-      <div class="grid-item">9</div>
+      <div class="grid-item">RAM is the computer's short-term memory, storing data and instructions that the CPU needs quickly. It's much faster than reading data from storage.
+        For gaming, having ample RAM (measured in gigabytes) allows you to run multiple applications simultaneously and ensures smooth gameplay by reducing lags and delays.</div>
+      <div class="grid-item">Storage drives are where you store your operating system, games, applications, and files.
+        Solid State Drives (SSDs) are faster than traditional Hard Disk Drives (HDDs), resulting in quicker boot times, faster game loading, and more responsive system performance.</div>  
+      <div class="grid-item">The PSU converts electricity from your wall outlet into usable power for your computer components.
+        Choose a PSU with sufficient wattage to power all your hardware. Consider the power requirements of your CPU, GPU, and other components when making your choice.</div>
+      <div class="grid-item">Efficient cooling is vital to prevent components from overheating and causing potential damage.
+        A CPU cooler keeps the CPU temperature in check during intensive gaming sessions, ensuring optimal performance. Additional case fans help maintain airflow, further aiding in cooling.</div>
+      <div class="grid-item">The computer case houses and protects all the internal components of your PC.
+        It comes in various sizes and designs, offering different levels of space and cooling options. Ensure the case you choose can fit all your components comfortably.</div>
+      <div class="grid-item">Peripherals are external devices you connect to your PC for interaction and display.
+        Key peripherals for gaming include a high-quality keyboard, a precise mouse, and a fast refresh rate monitor for a better gaming experience.</div>
       <div class="grid-item"><p><img class="components" src="https://yt3.googleusercontent.com/ytc/AOPolaSr7WFjvw5Tqb_pzYba6Fdj_DnqxNIjlUpSXwz4HBU=s900-c-k-c0x00ffffff-no-rj"><img class="components" src="https://1000logos.net/wp-content/uploads/2020/05/Amd-logo.jpg"><img class="components" src="https://www.nvidia.com/content/dam/en-zz/Solutions/about-nvidia/logo-and-brand/01-nvidia-logo-horiz-500x200-2c50-p@2x.png"></p></div>  
     </div>
   </html>
